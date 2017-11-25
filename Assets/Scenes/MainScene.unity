@@ -521,6 +521,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2091417770}
   m_Script: {fileID: 11500000, guid: d55fd15001a224340b193d1720e49cb5, type: 3}
+--- !u!65 &1920012654 stripped
+BoxCollider:
+  m_PrefabParentObject: {fileID: 65037968388607636, guid: c3ebde65bbd3c5c43a27cf4be9502c0b,
+    type: 2}
+  m_PrefabInternal: {fileID: 2091417770}
 --- !u!1001 &2091417770
 Prefab:
   m_ObjectHideFlags: 0
@@ -615,6 +620,22 @@ Prefab:
       propertyPath: gameDuration
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114955560038706432, guid: c3ebde65bbd3c5c43a27cf4be9502c0b,
+        type: 2}
+      propertyPath: spawnCollider
+      value: 
+      objectReference: {fileID: 1920012654}
+    - target: {fileID: 114955560038706432, guid: c3ebde65bbd3c5c43a27cf4be9502c0b,
+        type: 2}
+      propertyPath: targetObjectPool
+      value: 
+      objectReference: {fileID: 2124839064}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c3ebde65bbd3c5c43a27cf4be9502c0b, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &2124839064 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114904721350144676, guid: c3ebde65bbd3c5c43a27cf4be9502c0b,
+    type: 2}
+  m_PrefabInternal: {fileID: 2091417770}
+  m_Script: {fileID: 11500000, guid: 9d325421fae0524448e241466499f858, type: 3}
